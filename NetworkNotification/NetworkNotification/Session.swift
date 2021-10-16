@@ -8,11 +8,18 @@
 import UIKit
 
 class Session {
-    static let instance = Session()
     
-    private init() {}
     var fio = ""
     var age = ""
     var city = ""
     var image = UIImage()
+    
+    // for homework
+    var token: String?
+    var userId: Int?
+    
+    static let instance = Session()
+    
+    private init() {}
+
 }

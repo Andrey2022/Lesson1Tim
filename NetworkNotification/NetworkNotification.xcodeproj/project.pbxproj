@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEDDAEE9271B3E8A00736F64 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDAEE8271B3E8A00736F64 /* CollectionViewController.swift */; };
+		CEDDAEEE271B459300736F64 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDAEEC271B459300736F64 /* ImageCollectionViewCell.swift */; };
+		CEDDAEEF271B459300736F64 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDDAEED271B459300736F64 /* ImageCollectionViewCell.xib */; };
 		CEE9A8E7271ACF3C007C878F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A8E6271ACF3C007C878F /* AppDelegate.swift */; };
 		CEE9A8E9271ACF3C007C878F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A8E8271ACF3C007C878F /* SceneDelegate.swift */; };
 		CEE9A8EE271ACF3C007C878F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE9A8EC271ACF3C007C878F /* Main.storyboard */; };
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEDDAEE8271B3E8A00736F64 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		CEDDAEEC271B459300736F64 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEDDAEED271B459300736F64 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		CEE9A8E3271ACF3C007C878F /* NetworkNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE9A8E6271ACF3C007C878F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE9A8E8271ACF3C007C878F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +115,7 @@
 			children = (
 				CEE9A91A271ACFBD007C878F /* LogController */,
 				CEE9A8F7271ACF3F007C878F /* Info.plist */,
+				CEE9A924271ADA4F007C878F /* Session.swift */,
 				CEE9A919271ACFA1007C878F /* AllFile */,
 			);
 			path = NetworkNotification;
@@ -150,7 +157,6 @@
 				CEE9A91D271AD4A6007C878F /* TabBar */,
 				CEE9A8EC271ACF3C007C878F /* Main.storyboard */,
 				CEE9A91B271AD005007C878F /* LoginViewController.swift */,
-				CEE9A924271ADA4F007C878F /* Session.swift */,
 			);
 			path = LogController;
 			sourceTree = "<group>";
@@ -160,6 +166,9 @@
 			children = (
 				CEE9A920271AD583007C878F /* TabBarController.swift */,
 				CEE9A922271AD9E1007C878F /* ProfileViewController.swift */,
+				CEDDAEE8271B3E8A00736F64 /* CollectionViewController.swift */,
+				CEDDAEEC271B459300736F64 /* ImageCollectionViewCell.swift */,
+				CEDDAEED271B459300736F64 /* ImageCollectionViewCell.xib */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -269,6 +278,7 @@
 			files = (
 				CEE9A8F6271ACF3F007C878F /* LaunchScreen.storyboard in Resources */,
 				CEE9A8F3271ACF3F007C878F /* Assets.xcassets in Resources */,
+				CEDDAEEF271B459300736F64 /* ImageCollectionViewCell.xib in Resources */,
 				CEE9A8EE271ACF3C007C878F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +308,9 @@
 				CEE9A91C271AD005007C878F /* LoginViewController.swift in Sources */,
 				CEE9A8E7271ACF3C007C878F /* AppDelegate.swift in Sources */,
 				CEE9A8F1271ACF3C007C878F /* NetworkNotification.xcdatamodeld in Sources */,
+				CEDDAEE9271B3E8A00736F64 /* CollectionViewController.swift in Sources */,
 				CEE9A925271ADA4F007C878F /* Session.swift in Sources */,
+				CEDDAEEE271B459300736F64 /* ImageCollectionViewCell.swift in Sources */,
 				CEE9A921271AD583007C878F /* TabBarController.swift in Sources */,
 				CEE9A8E9271ACF3C007C878F /* SceneDelegate.swift in Sources */,
 			);

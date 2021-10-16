@@ -10,6 +10,8 @@ import UIKit
 class ImageCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet var imageCell: UIImageView!
+    @IBOutlet var nameFriendCell: UILabel!
+    @IBOutlet var ageFriendCell: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

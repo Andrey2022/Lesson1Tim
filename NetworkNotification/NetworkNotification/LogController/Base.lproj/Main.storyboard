@@ -117,7 +117,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8RY-4C-mED">
-                                    <size key="itemSize" width="257" height="216"/>
+                                    <size key="itemSize" width="414" height="500"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -129,26 +129,8 @@
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="UP9-YY-IO7">
                                             <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sXw-4c-Qyg">
-                                                    <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="250" id="nES-d2-5SM"/>
-                                                        <constraint firstAttribute="width" constant="250" id="oag-8v-F6I"/>
-                                                    </constraints>
-                                                </imageView>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="sXw-4c-Qyg" secondAttribute="trailing" id="H5d-5m-RzC"/>
-                                                <constraint firstItem="sXw-4c-Qyg" firstAttribute="leading" secondItem="UP9-YY-IO7" secondAttribute="leading" id="Kmt-av-POb"/>
-                                                <constraint firstItem="sXw-4c-Qyg" firstAttribute="top" secondItem="UP9-YY-IO7" secondAttribute="top" id="aaO-WK-AEv"/>
-                                                <constraint firstAttribute="bottom" secondItem="sXw-4c-Qyg" secondAttribute="bottom" id="nrt-SG-LLF"/>
-                                            </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="250" height="250"/>
-                                        <connections>
-                                            <outlet property="imageCell" destination="sXw-4c-Qyg" id="u66-Qh-xZ4"/>
-                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>

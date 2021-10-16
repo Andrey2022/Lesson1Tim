@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		CEE9A8E7271ACF3C007C878F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A8E6271ACF3C007C878F /* AppDelegate.swift */; };
 		CEE9A8E9271ACF3C007C878F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A8E8271ACF3C007C878F /* SceneDelegate.swift */; };
-		CEE9A8EB271ACF3C007C878F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A8EA271ACF3C007C878F /* ViewController.swift */; };
 		CEE9A8EE271ACF3C007C878F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE9A8EC271ACF3C007C878F /* Main.storyboard */; };
 		CEE9A8F1271ACF3C007C878F /* NetworkNotification.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A8EF271ACF3C007C878F /* NetworkNotification.xcdatamodeld */; };
 		CEE9A8F3271ACF3F007C878F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE9A8F2271ACF3F007C878F /* Assets.xcassets */; };
 		CEE9A8F6271ACF3F007C878F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE9A8F4271ACF3F007C878F /* LaunchScreen.storyboard */; };
 		CEE9A901271ACF3F007C878F /* NetworkNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A900271ACF3F007C878F /* NetworkNotificationTests.swift */; };
 		CEE9A90C271ACF3F007C878F /* NetworkNotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A90B271ACF3F007C878F /* NetworkNotificationUITests.swift */; };
+		CEE9A91C271AD005007C878F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A91B271AD005007C878F /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		CEE9A8E3271ACF3C007C878F /* NetworkNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE9A8E6271ACF3C007C878F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE9A8E8271ACF3C007C878F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEE9A8EA271ACF3C007C878F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEE9A8ED271ACF3C007C878F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEE9A8F0271ACF3C007C878F /* NetworkNotification.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetworkNotification.xcdatamodel; sourceTree = "<group>"; };
 		CEE9A8F2271ACF3F007C878F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		CEE9A907271ACF3F007C878F /* NetworkNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE9A90B271ACF3F007C878F /* NetworkNotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkNotificationUITests.swift; sourceTree = "<group>"; };
 		CEE9A90D271ACF3F007C878F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE9A91B271AD005007C878F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +101,9 @@
 		CEE9A8E5271ACF3C007C878F /* NetworkNotification */ = {
 			isa = PBXGroup;
 			children = (
-				CEE9A8E6271ACF3C007C878F /* AppDelegate.swift */,
-				CEE9A8E8271ACF3C007C878F /* SceneDelegate.swift */,
-				CEE9A8EA271ACF3C007C878F /* ViewController.swift */,
-				CEE9A8EC271ACF3C007C878F /* Main.storyboard */,
-				CEE9A8F2271ACF3F007C878F /* Assets.xcassets */,
-				CEE9A8F4271ACF3F007C878F /* LaunchScreen.storyboard */,
+				CEE9A919271ACFA1007C878F /* AllFile */,
+				CEE9A91A271ACFBD007C878F /* LogController */,
 				CEE9A8F7271ACF3F007C878F /* Info.plist */,
-				CEE9A8EF271ACF3C007C878F /* NetworkNotification.xcdatamodeld */,
 			);
 			path = NetworkNotification;
 			sourceTree = "<group>";
@@ -129,6 +124,27 @@
 				CEE9A90D271ACF3F007C878F /* Info.plist */,
 			);
 			path = NetworkNotificationUITests;
+			sourceTree = "<group>";
+		};
+		CEE9A919271ACFA1007C878F /* AllFile */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9A8F2271ACF3F007C878F /* Assets.xcassets */,
+				CEE9A8F4271ACF3F007C878F /* LaunchScreen.storyboard */,
+				CEE9A8EF271ACF3C007C878F /* NetworkNotification.xcdatamodeld */,
+				CEE9A8E8271ACF3C007C878F /* SceneDelegate.swift */,
+				CEE9A8E6271ACF3C007C878F /* AppDelegate.swift */,
+			);
+			path = AllFile;
+			sourceTree = "<group>";
+		};
+		CEE9A91A271ACFBD007C878F /* LogController */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9A8EC271ACF3C007C878F /* Main.storyboard */,
+				CEE9A91B271AD005007C878F /* LoginViewController.swift */,
+			);
+			path = LogController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE9A8EB271ACF3C007C878F /* ViewController.swift in Sources */,
+				CEE9A91C271AD005007C878F /* LoginViewController.swift in Sources */,
 				CEE9A8E7271ACF3C007C878F /* AppDelegate.swift in Sources */,
 				CEE9A8F1271ACF3C007C878F /* NetworkNotification.xcdatamodeld in Sources */,
 				CEE9A8E9271ACF3C007C878F /* SceneDelegate.swift in Sources */,

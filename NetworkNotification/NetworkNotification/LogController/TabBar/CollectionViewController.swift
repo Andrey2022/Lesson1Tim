@@ -68,16 +68,19 @@ extension CollectionViewController: UICollectionViewDataSource {
         let image = images[indexPath.item]
         let nameFriend = namesFriend[indexPath.item]
         cell.imageCell.image = image
-        cell.nameFriendCell?.text = "Name friend: " + nameFriend
+        cell.imageCell.sizeToFit()
+        //cell.nameFriendCell?.text = "Name friend: " + nameFriend
         
         return cell
     }
 }
 extension CollectionViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        let frameCV = collectionView.frame
 
-        let widthCell = 250
-        let heightCell = 250
+        let widthCell = frameCV.width
+        let heightCell = widthCell
         
 
         return CGSize(width: widthCell, height: heightCell)
